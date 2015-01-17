@@ -8,5 +8,7 @@ permalink: /links/
 
 # Язык Ruby и инструменты связанные с ним
  - [Официальный сайт языка Ruby](http://ruby-lang.org)
- - [Jekyll - генерация статичных сайтов](http://jekyllrb.com/)
+ - [Jekyll - генерация ста
+ тичных сайтов](http://jekyllrb.com/)
  - [Книжки по программированию и не только](http://www.proklondike.com/)
+ - [Официальный сайт Arduino](http://arduino.cc)
