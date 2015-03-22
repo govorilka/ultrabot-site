@@ -1,5 +1,10 @@
-# Site settings
+# Заголовок сайта
 title: Ultrabot
+
+# Кодировка
+encoding:     "utf-8"
+markdown_ext: "markdown,mkdown,mkdn,mkd,md"
+
 #email: your-email@domain.com
 #description: > # this means to ignore newlines until "baseurl:"
 #  Write an awesome description for your new site here. You can edit this
@@ -7,8 +12,14 @@ title: Ultrabot
 #  Google search results) and in your feed.xml site description.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://govorilka.github.io/ultrabot" # the base hostname & protocol for your site
+
 #twitter_username: jekyllrb
 github_username:  govorilka
 
 # Build settings
 markdown: kramdown
+
+# Уроки по С++
+collections:
+    cppreference:
+        output: true
