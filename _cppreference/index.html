@@ -1,4 +1,6 @@
 ---
+id: index
+title: Справочник С++
 layout: default
 ---
 
@@ -8,9 +10,11 @@ layout: default
 
   <ul class="post-list">
     {% for doc in site.collections.cppreference.docs %}
+      {% if doc.id != "index" %}
       <li>
         <a class="post-link" href="{{ doc.url | prepend: site.baseurl }}">{{ doc.title }}</a>
       </li>
+      {% endif %}
     {% endfor %}
   </ul>
 
